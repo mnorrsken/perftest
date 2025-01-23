@@ -7,8 +7,22 @@ group_reporting
 runtime=60
 startdelay=5
 
-[seq]
-filename=test1
+[seq-cephfs]
+filename=/mnt/ceph/test1
+size=4GB
+rw=write
+bs=1M
+numjobs=2
+
+[seq-rbd]
+filename=/mnt/rbd/test1
+size=4GB
+rw=write
+bs=1M
+numjobs=2
+
+[seq-prox]
+filename=/mnt/proxmox/test1
 size=4GB
 rw=write
 bs=1M
