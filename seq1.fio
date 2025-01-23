@@ -9,7 +9,7 @@ startdelay=5
 
 [seq]
 filename=test1
-size=8Gb
+size=4GB
 rw=write
 bs=1M
 numjobs=2
