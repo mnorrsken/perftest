@@ -7,6 +7,7 @@ group_reporting
 runtime=60
 startdelay=5
 
+[seq]
 filename=test1
 size=8Gb
 rw=write
